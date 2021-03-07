@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erste Projekt mit meinem Team</title>
+    <style>
+        .navbar {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-image: url(https://media.istockphoto.com/photos/base-on-mars-first-colonization-martian-colony-in-desert-landscape-on-picture-id1090235280?k=6&m=1090235280&s=612x612&w=0&h=qIgygrZgP7leh06X_B3HKZI1ho5xKeKvt1boWCPYIbs=);
+            text-align: center;
+        }
+        .navbar ul {
+            display: inline-flex;
+            list-style: none;
+        }
+        .navbar ul li {
+            width: 150px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(10, 6, 1);
+        }
+        .button:hover{
+            background: rgb(199, 149, 101);
+            border-radius: 50%;
+               
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex-container {
+            display: flex;
+            justify-content:space-around;
+            background-color: rgb(248, 247, 246);
+        }
+        .flex-container > div {
+            background-color: white;
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="button"><a href="#">Startseite</a></li>
+            <li class="button"><a href="#">Über uns</a></li>
+            <li class="button"><a href="#">Blog</a></li>
+            <li class="button"><a href="#">Karriere</a></li>
+            <li class="button"><a href="#">Kontakt</a></li>
+            <li class="button"><a href="#">Immobilien</a></li>
+              
+        </ul>
+    </div>
+    <h1>Birlikte ilk adimlar</h1>
+    <div class="flex-container">
+        <div>
+            <img id="uzay1" src="https://media.istockphoto.com/photos/space-shuttle-flying-over-the-clouds-picture-id472339618?k=6&m=472339618&s=612x612&w=0&h=-gOKOLKcifxm-P6toXV30t8LuLlvunaWZRE46HPdm6Y=" width="400" height="400">
+            <button class="erste button">SpaceX</button>
+        </div>
+        <div>
+            <img id="uzay2" src="https://media.istockphoto.com/photos/astronaut-on-planet-mars-sitting-on-a-cliff-above-a-research-station-picture-id1166971017?k=6&m=1166971017&s=612x612&w=0&h=PLnL_8HQ0ilADnOLlI17ZsgyRGppETYXYo-CVppv6cA=" width="400" height="auto">
+        </div>
+        <div>
+            <img id="uzay3" src="https://media.istockphoto.com/photos/life-on-planet-mars-astronaut-discovers-tiny-martians-picture-id1182464225?k=6&m=1182464225&s=612x612&w=0&h=MJbVnStcTMDLCJ9dOC8yjyvkgtYRnyck-16zSoK7-j0=" width="400" height="auto">
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
